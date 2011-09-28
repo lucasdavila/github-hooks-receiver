@@ -1,0 +1,8 @@
+echo ""
+echo "puts here your custom command, ex:"
+echo "cd /path/to/my/app"
+echo "git reset --hard"
+echo "git pull origin master"
+echo "remember this file need execution permission (aka run this command $ sudo chmod +x file_name)"
+echo "to check permissions execute $ ls -la"
+echo ""
