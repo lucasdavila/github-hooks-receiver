@@ -12,19 +12,19 @@ $ cd github-hooks-receiver
 $ touch hooks/post-receive/my_hook
 $ nano hooks/post-receive/my_hook
 
-#now add your commands
+//now add your commands
 cd /path/to/my/app-project
 git reset --hard
 git pull origin master
 
-#and save your hook pressing
+//and save your hook pressing
 ctrl + x
 y
 
-#remember this file need execution permission, to check permissions execute:
+//remember this file need execution permission, to check permissions execute:
 $ ls -la
 
-#to add execution permission execute:
+//to add execution permission execute:
 $ sudo chmod +x my_hook_file_name
 
 4 - install dependencies (you must have installed ruby )
