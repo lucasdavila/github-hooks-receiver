@@ -27,13 +27,13 @@ $ ls -la
 //to add execution permission execute:  
 $ sudo chmod +x my_hook_file_name  
 
-4 - install dependencies (you must have installed ruby )  
+3 - install dependencies (you must have installed ruby )  
 $ bundle install  
 
-3 - run your server  
+4 - run your server  
 $ ruby rooks_receiver.rb  
 
-4 - add your post-receive-hook url to github hooks page  
+5 - add your post-receive-hook url to github hooks page  
 ex url: http://your-host/post-receive/<hook-name>  
 github hooks page: https://github.com/your_user/your_project/admin/hooks  
 
