@@ -33,7 +33,7 @@ class RooksReceiver
 
     if (name.nil? or name.empty?) and (@name.nil? or @name.empty?)
       raise "Oops! I need the name of hook :)"
-    elsif name.nil? or name.empty?
+    elsif not name.nil? or name.empty?
       name = @name
     end
 

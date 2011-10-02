@@ -31,7 +31,7 @@ $ sudo chmod +x my_hook_file_name
 $ bundle install  
 
 4 - run your server  
-$ ruby rooks_receiver.rb  
+$ ruby hooks_receiver.rb  
 
 5 - add your post-receive-hook url to github hooks page  
 ex url: http://your-host/post-receive/<hook-name>  
